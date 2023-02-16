@@ -1,0 +1,29 @@
+.input_logout{
+    margin-left: 1px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 7; }
+
+.div1 {
+    margin-top: 0px;
+    padding-top: 100px;
+}
+.div2 {
+    margin-top: 0px;
+    padding-top: 100px;
+}
+
+.position2{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+

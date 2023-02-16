@@ -1,0 +1,181 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <!-- standart -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Index#</title>
+  <!-- font -->
+  <link
+          rel="preconnect"
+          href="https://fonts.googleapis.com">
+  <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap"
+          rel="stylesheet">
+  <!-- css -->
+  <link th:href="@{/styles/index.css}"
+        type="text/css"
+        rel="stylesheet">
+  <!-- bootstrap -->
+  <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+          crossorigin="anonymous">
+  <!-- other -->
+
+</head>
+<body>
+
+  <!-- Navigation -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a th:href="@{/index}" >
+        <img
+                width= 50px;
+                height= 25px;
+                src="/images/logo.png"
+        >
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item active">
+            <a
+                    class="nav-link"
+                    th:href="@{/index}"
+            >
+              Home
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" th:href="@{/product}">
+              Catalog
+            </a>
+          </li>
+
+          <li class="nav-item4 dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Log in
+            </a>
+            <ul class="dropdown-menu">
+
+              <li>
+                <a class="dropdown-item" th:href="@{/auth/login}">
+                  Sign in
+                </a>
+              </li>
+
+              <li>
+                <a class="dropdown-item" th:href="@{/auth/registration}">
+                  Registration
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navigation END -->
+
+<div class="parent">
+  <div class="div1">
+    <br>
+    <a href="texe/index.txt" target="_blank" title="111"></a>
+
+    <br>
+    <h4>QualityAssurance</h4><br>
+    Travel Equipment is always performance tested, at fully loaded capacity, using our stringent quality control standards. Before we offer any product for sale, it is put through rigorous tests of strength, durability, and dependability that represent the environmental demands of frequent travelers. This attention to quality and performance is why product is Worldproof® and has been for nearly 100 years.<br><br>
+
+    <h4>Limited Global Warranty</h4><br>
+    Products are rigorously tested to ensure that the travel products you trust meet stringent standards. Consequently, if a problem occurs with this product (the "Product") and the problem is caused by manufacturing defects in material and workmanship, product will, in its discretion, either fix or replace the Product in accordance with the warranty terms and conditions stated herein. The warranty provided for herein applies only to and extends for the lifetime of the first purchaser or gift recipient of the Product.<br>
+
+    This warranty covers only manufacturing defects and does not cover any damage caused by misuse (such as transportation of unusual items), neglect, accidents, abrasion, exposure to extreme temperatures, solvents, acids, water, normal wear and tear or transport damage (by airlines for example). While non-warranty maintenance or repairs on your Product can be performed by any company, product requires that you use only an approved service center ("Service Center") for warranty repairs. Improper or incorrectly performed maintenance or repairs void this warranty.<br>
+
+    To create a Repair Request, please visit our Service and Repairs Page<br>
+
+    Incidental and consequential damages are expressly disclaimed. Labor charges and damages attributable to work performed by anyone other than a Service Center are not covered by this warranty. To the extent permitted by applicable law, any implied warranties are hereby excluded. The warranty provided herein is limited to the value of the Product. Manufacturing specifications are subject to change without notice. Product locks are intended only to prevent accidental opening and cannot necessarily prevent theft of the Product or its contents, breakage or entry by airline or airport personnel or governmental authorities. Inspect your Product immediately after handling by anyone other than you. If damaged in transit, submit a claim to the transit company (which is insured against damaging your product) at the place of arrival, if possible, before clearing customs.<br>
+
+    This warranty is intended to give you specific legal rights. In addition to the rights described herein, you may also have other rights that vary from state to state or country to country with respect to the exclusion or application of implied warranties, incidental and consequential damages and repair and replacement. Consequently, the limitations or exclusions specifically contained in this warranty may not be applicable to you.<br><br>
+
+    <h4>Limited 10 Year Global Warranty</h4><br>
+    Products are rigorously tested to ensure that the travel products you trust meet stringent standards. Consequently, if a problem occurs with this product (the “Product”) and the problem is caused by manufacturing defects in material and workmanship, product will, in its discretion, either fix or replace the Product in accordance with the warranty terms and conditions stated herein. The warranty provided for herein applies only to the first purchaser or gift recipient of the Product for a period of ten years starting from the date this Product was purchased.<br>
+
+    This warranty covers only manufacturing defects and does not cover any damage caused by misuse (such as transportation of unusual items), neglect, accidents, abrasion, exposure to extreme temperatures, solvents, acids, water, normal wear and tear or transport damage (by airlines for example). While non-warranty maintenance or repairs on your Product can be performed by any company, product requires that you use only an approved service center (“Service Center”) for warranty repairs. Improper or incorrectly performed maintenance or repairs void this warranty.<br>
+
+    To create a Repair Request, please visit our Service and Repairs Page<br>
+
+    Incidental and consequential damages are expressly disclaimed. Labor charges and damages attributable to work performed by anyone other than a Service Center are not covered by this warranty. To the extent permitted by applicable law, any implied warranties are hereby excluded. The warranty provided herein is limited to the value of the Product. Manufacturing specifications are subject to change without notice. Product locks are intended only to prevent accidental opening and cannot necessarily prevent theft of the Product or its contents, breakage or entry by airline or airport personnel or governmental authorities. Inspect your Product immediately after handling by anyone other than you. If damaged in transit, submit a claim to the transit company (which is insured against damaging your product) at the place of arrival, if possible, before clearing customs.<br>
+
+    This warranty is intended to give you specific legal rights. In addition to the rights described herein, you may also have other rights that vary from state to state or country to country with respect to the exclusion or application of implied warranties, incidental and consequential damages and repair and replacement. Consequently, the limitations or exclusions specifically contained in this warranty may not be applicable to you.<br><br>
+
+    <h4>Limited 3 Year Global Warranty</h4><br>
+    Products are rigorously tested to ensure that the travel products you trust meet stringent standards. Consequently, if a problem occurs with this product (the “Product”) and the problem is caused by manufacturing defects in material and workmanship, Brand will, in its discretion, either fix or replace the Product in accordance with the warranty terms and conditions stated herein. The warranty provided for herein applies only to the first purchaser or gift recipient of the Product for a period of three years starting from the date this Product was purchased.<br>
+
+    This warranty covers only manufacturing defects and does not cover any damage caused by misuse (such as transportation of unusual items), neglect, accidents, abrasion, exposure to extreme temperatures, solvents, acids, water, normal wear and tear or transport damage (by airlines for example). While non-warranty maintenance or repairs on your Product can be performed by any company, product requires that you use only an approved product service center (“Service Center”) for warranty repairs. Improper or incorrectly performed maintenance or repairs void this warranty.<br>
+
+    To create a Repair Request, please visit our Service and Repairs Page<br>
+
+    Incidental and consequential damages are expressly disclaimed. Labor charges and damages attributable to work performed by anyone other than a Service Center are not covered by this warranty. To the extent permitted by applicable law, any implied warranties are hereby excluded. The warranty provided herein is limited to the value of the Product. Manufacturing specifications are subject to change without notice. Product locks are intended only to prevent accidental opening and cannot necessarily prevent theft of the Product or its contents, breakage or entry by airline or airport personnel or governmental authorities. Inspect your Product immediately after handling by anyone other than you. If damaged in transit, submit a claim to the transit company (which is insured against damaging your product) at the place of arrival, if possible, before clearing customs.<br>
+
+    This warranty is intended to give you specific legal rights. In addition to the rights described herein, you may also have other rights that vary from state to state or country to country with respect to the exclusion or application of implied warranties, incidental and consequential damages and repair and replacement. Consequently, the limitations or exclusions specifically contained in this warranty may not be applicable to you.<br>
+  </div>
+</div>
+
+<!-- Informetion END -->
+
+<!-- Footer -->
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <img
+              id="img_footer"
+              src="/images/footer/facebook.png"
+      >
+    </div>
+    <div class="col">
+      <img
+              id="img_footer"
+              src="/images/footer/instagram.png"
+      >
+    </div>
+    <div class="col">
+      <img
+              id="img_footer"
+              src="/images/footer/twitter.png">
+    </div>
+    <div class="col">
+      <img
+              id="img_footer"
+              src="/images/footer/youtube.png">
+    </div>
+  </div>
+</div>
+
+<!-- Footer END-->
+
+<!-- Extra -->
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
